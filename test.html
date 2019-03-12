@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+a {
+    outline: 0;
+    text-decoration: none;
+}
+
+div.wrap_ad {
+  background-color: #fff;
+  width: 300px !important;
+  height: 250px !important;
+  border: 1px solid #e5e5e5;
+  list-style: none;
+  padding: 0;
+}
+
+div.wrap_ad div.main_image {
+  width: 298px;
+  height: 156px;
+  background-color: #000;
+}
+
+div.main_image img {
+  width: 298px;
+  height: 156px;
+}
+
+div.wrap_ad div.short_row {
+  width: 298px;
+  background-color: #fff;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 7px;
+}
+
+div.short_row span.description {
+  display: inline;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  color: #0a0909;
+}
+
+div.short_row a.advertiser {
+  margin: 7px 8px 5px 5px;
+  padding: 7px 5px;
+  background-color: #FFF;
+  color: #06110e;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 7px;
+  text-align: center;
+  font-size: 13px;
+  display: block;
+  float: left;
+}
+
+div.short_row a.cta {
+  margin: 7px 8px 5px 5px;
+  padding: 7px 5px;
+  background-color: #FFF;
+  color: #34b792;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  padding: 7px;
+  text-align: center;
+  font-size: 18px;
+  display: block;
+  font-weight: bold;
+  float: right;
+}
+.clear {
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div id="ads" class="wrap_ad">
+  <div class="main_image">
+  <!-- main image here -->
+    <a href="https://google.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flabellina-300x200.jpg">
+    </a>
+  </div>
+
+  <div class="short_row">
+  <!-- description here -->
+    <a href="https://google.com" target="_blank">
+      <span>Very long text here here hrere here here here here here here here</span>
+    </a>
+  </div>
+
+  <div class="short_row">
+  <!-- advertiser and cta here -->
+    <a class="advertiser" href="https://google.com" target="_blank">Advertiser here</a>
+    <a class="cta" href="https://google.com" target="_blank">Read more >>></a>
+    <div class="clear"></div>
+  </div>
+
+</div>
+</body>
+</html>
